@@ -27,6 +27,8 @@ function initCard(card) {
     const deltaX = pointerX - cardCenterX;
     const deltaY = pointerY - cardCenterY;
 
+
+    
     const distanceToCenter = Math.sqrt(deltaX * deltaX + deltaY * deltaY);
     const maxDistance = Math.max(halfWidth, halfHeight);
 
